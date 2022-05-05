@@ -1,0 +1,93 @@
+.prising {
+  background: linear-gradient(to top, #3D4251, #272B35);
+}
+
+.prising__title {
+  padding: 100px 0 60px;
+  text-align: center;
+  font-size: 48px;
+  line-height: 64px;
+  color: #ffffff;
+}
+
+.prising__body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.prising__item {
+  flex: 0 0 33.333%;
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 6px;
+  border: 1px solid #EBECED;
+}
+
+.prising__playment {
+  text-transform: uppercase;
+  padding: 48px 0 30px;
+  color: #323642;
+  font-weight: 500;
+  line-height: 18px;
+  position: relative;
+}
+
+.prising__playment::before {
+  content: '';
+  position: absolute;
+  width: 24px;
+  height: 2px;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 14px;
+  background: #4CB649;
+}
+
+.prising__price {
+  color: #22252E;
+  display: flex;
+  justify-content: center;
+}
+
+.icon-dolar {
+  font-size: 24px;
+  /* align-self: center; */
+  position: relative;
+}
+
+.icon-dolar::before {
+  top: 14px;
+  left: 0;
+  position: absolute;
+}
+
+.prising__price_value {
+  font-size: 56px;
+  line-height: 66px;
+  letter-spacing: -1.5px;
+  padding: 0 0 0 24px;
+}
+
+.prising__price_text {
+  font-size: 24px;
+  line-height: 32px;
+  align-self: flex-end;
+}
+
+.prising__description {
+  color: #323642;
+  line-height: 22px;
+}
+
+.prising__price_old {}
+
+.prising__price_new {}
+
+.prising__save {}
+
+.prising__btn {
+  padding: 11px 73px 9px;
+}

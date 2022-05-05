@@ -26,12 +26,16 @@
 .info-aside__subtitle {
   font-size: 24px;
   line-height: 34px;
-  margin: 0 0 35px 0;
-  padding: 0 0 0 82px;
+  margin: 0 0 15px 0;
   position: relative;
 }
 
-.info-aside__subtitle::before {
+.info-aside__item .info-aside__subtitle {
+  padding: 0 0 0 82px;
+  margin: 0 0 35px 0;
+}
+
+.info-aside__item .info-aside__subtitle::before {
   content: '';
   position: absolute;
   top: -12px;
@@ -65,4 +69,15 @@
 .info-aside__link {
   color: #323642;
   line-height: 22px;
+}
+
+.info-aside__banner {
+  position: relative;
+  padding: 75.3% 0;
+  margin: 0 0 51px 0;
+}
+
+.info-aside__screen {
+  position: relative;
+  padding: 51.4% 0;
 }

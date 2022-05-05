@@ -90,8 +90,9 @@
 
 .authorization__started {
   color: #ffffff;
-  background: #4CB649;
+  background: linear-gradient(to top, #4CB649, #5DDF5A);
   padding: 10px 31px;
+  border: none;
 }
 
 /*BURGER------------------------------------------------------------*/
