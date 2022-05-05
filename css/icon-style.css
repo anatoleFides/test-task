@@ -22,16 +22,16 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-linkedin:before {
+  content: "\e901";
+}
+
 .icon-SL:before {
   content: "\e902";
 }
 
 .icon-arrow:before {
   content: "\e904";
-}
-
-.icon-comment:before {
-  content: "\e905";
 }
 
 .icon-dolar:before {

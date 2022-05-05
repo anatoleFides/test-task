@@ -1,0 +1,40 @@
+.tags {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+  line-height: 18px;
+  padding: 21px 32px;
+  margin: 0 0 40px 0;
+  border-radius: 4px;
+  background: #F7F7F7;
+}
+
+.tags__row {
+  /* flex: 1 1 auto; */
+  display: flex;
+}
+
+.tags__row span {
+  color: #323642;
+  letter-spacing: 1px;
+  margin: 0 43px 0 0;
+}
+
+.tags__list {
+  display: flex;
+}
+
+.tags__list li {
+  margin: 0 25px 0 0;
+  letter-spacing: .8px;
+  color: #4CB649;
+}
+
+.tags__links a {
+  color: #323642;
+}
+
+.tags__links a:first-child {
+  margin: 0 25px 0 0;
+}
