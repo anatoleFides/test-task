@@ -1,6 +1,7 @@
 .warning {
   background: #22252E;
   position: relative;
+  z-index: 10;
 }
 
 .warning.close {

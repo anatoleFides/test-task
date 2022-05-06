@@ -5,6 +5,12 @@
   flex-direction: column;
 }
 
+@media (max-width:768px) {
+  .posts__aside {
+    padding: 0;
+  }
+}
+
 .info-aside__item {
   padding: 43px 0 16px 0;
   border-bottom: 1px solid #EBECED;

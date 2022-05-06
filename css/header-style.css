@@ -48,7 +48,14 @@
   text-transform: none;
 }
 
+.menu-header {
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
 .menu-header__list {
+  flex: 1 1 auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -62,23 +69,38 @@
   position: relative;
 }
 
-.menu-header__item::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: -6px;
-  width: 100%;
-  height: 3px;
-  background: #4CB649;
-  opacity: 0;
-  visibility: hidden;
-  transition: all .6s ease;
+@media (max-width: 768px) {
+  .menu-header__list {
+    flex: 0 0 60%;
+    flex-direction: column;
+    align-items: flex-start;
+    /* order: 2; */
+  }
+
+  .menu-header__item {
+    margin: 0 0 20px 0;
+  }
 }
 
-.menu-header__item:hover.menu-header__item::before {
-  opacity: 1;
-  visibility: visible;
-  transition: all .6s ease;
+@media (min-width: 768px) {
+  .menu-header__item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #4CB649;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .6s ease;
+  }
+
+  .menu-header__item:hover.menu-header__item::before {
+    opacity: 1;
+    visibility: visible;
+    transition: all .6s ease;
+  }
 }
 
 .menu-header__item:last-child {
@@ -110,23 +132,31 @@
   z-index: 10;
 }
 
-@media (max-width: 768px) {
-  .header__authorization {
-    transform: translateX(0);
-  }
-}
-
-
-.authorization__login {
+.header__login {
   padding: 10px 19px;
   margin: 0 10px 0 0;
 }
 
-.authorization__started {
+.header__started {
   color: #ffffff;
   background: linear-gradient(to top, #4CB649, #5DDF5A);
   padding: 10px 31px;
   border: none;
+}
+
+@media (max-width: 768px) {
+  .header__authorization {
+    /* transform: translateX(0); */
+  }
+
+  .header__started {
+    padding: 10px 16px;
+  }
+
+  .header__login {
+    align-self: center;
+    margin: 16px 0 0 0;
+  }
 }
 
 /*MENU+BURGER-----------------------------------------------------------*/
@@ -138,9 +168,9 @@
     width: 100%;
     height: 100%;
     z-index: 7;
-    align-items: start;
-    justify-content: space-between;
-    padding: 145px 8px 0 8px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 150px 0 0 30px;
     background: #F5F5F5;
     transition: all .8s ease;
     flex-direction: column;

@@ -65,7 +65,9 @@
   border-bottom: 1px solid #EBECED;
 }
 
-.post_img {
+
+
+.post__img {
   flex: 0 0 35%;
   position: relative;
   padding: 0 0 23% 0;
@@ -74,6 +76,16 @@
 .post__content {
   flex: 0 1 auto;
   padding: 0 0 0 40px;
+}
+
+@media (max-width: 768px) {
+  .posts__item {
+    flex-direction: column;
+  }
+
+  .post__img {
+    flex: 0 0 100%;
+  }
 }
 
 .post__text {

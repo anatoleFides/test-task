@@ -19,6 +19,7 @@
 @media (max-width: 768px) {
   .prising__body {
     flex-direction: column;
+    align-items: stretch;
   }
 }
 
@@ -68,7 +69,6 @@
   display: flex;
   justify-content: center;
   position: relative;
-  /* padding: 0 0 35px 0; */
 }
 
 .prising__price::before {
