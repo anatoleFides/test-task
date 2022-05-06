@@ -1,11 +1,16 @@
+.header {
+  position: sticky;
+  top: 0;
+  background: #ffffff;
+  z-index: 100;
+}
+
 .header__body {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 40px 0;
 }
-
-
 
 .header__logo {
   margin: 0 0 0 6px;

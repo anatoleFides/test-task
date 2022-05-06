@@ -49,7 +49,7 @@
 }
 
 .warning__close {
-  position: fixed;
+  position: absolute;
   top: 13px;
   right: 13px;
   width: 14px;
