@@ -16,6 +16,12 @@
   align-items: flex-start;
 }
 
+@media (max-width: 768px) {
+  .prising__body {
+    flex-direction: column;
+  }
+}
+
 .prising__item {
   flex: 0 0 33.333%;
   margin: 11px 10px 0;
@@ -116,8 +122,6 @@
   margin: 0 8px 0 0;
 }
 
-.prising__price_new {}
-
 .prising__save {
   margin: 4px 0 15px;
   font-weight: 700;
@@ -141,6 +145,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   padding: 31px 0 10px;
 }
 
@@ -164,6 +169,12 @@
   display: flex;
   justify-content: center;
   padding: 0 0 57px 0;
+}
+
+@media (max-width: 768px) {
+  .prising__links {
+    flex-direction: column;
+  }
 }
 
 .prising__link {

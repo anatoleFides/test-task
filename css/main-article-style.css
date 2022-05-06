@@ -8,6 +8,13 @@
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.102);
 }
 
+@media (max-width:768px) {
+  .article-main {
+    flex-direction: column;
+    margin: 0 -10px;
+  }
+}
+
 .article-main__image {
   flex: 0 1 50%;
   position: relative;

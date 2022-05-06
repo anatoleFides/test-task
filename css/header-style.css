@@ -5,7 +5,19 @@
   z-index: 100;
 }
 
+@media (max-width: 768px) {
+  .header__container {
+    margin: 0 12px;
+  }
+}
+
 .header__body {
+  display: flex;
+  align-items: center;
+}
+
+.header__row {
+  flex: 1 1 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -14,6 +26,18 @@
 
 .header__logo {
   margin: 0 0 0 6px;
+  position: relative;
+  z-index: 10;
+}
+
+@media (max-width: 768px) {
+  .header__row {
+    padding: 15px 0;
+  }
+
+  .header__logo {
+    margin: 0 0 0 24px;
+  }
 }
 
 .logo_link {
@@ -82,13 +106,18 @@
 
 .header__authorization {
   position: relative;
-  transform: translateX(140px);
+  /* transform: translateX(140px); */
+  z-index: 10;
+}
+
+@media (max-width: 768px) {
+  .header__authorization {
+    transform: translateX(0);
+  }
 }
 
 
 .authorization__login {
-
-
   padding: 10px 19px;
   margin: 0 10px 0 0;
 }
@@ -100,6 +129,29 @@
   border: none;
 }
 
+/*MENU+BURGER-----------------------------------------------------------*/
+@media (max-width: 768px) {
+  .menu-header {
+    position: fixed;
+    top: 0;
+    left: -150%;
+    width: 100%;
+    height: 100%;
+    z-index: 7;
+    align-items: start;
+    justify-content: space-between;
+    padding: 145px 8px 0 8px;
+    background: #F5F5F5;
+    transition: all .8s ease;
+    flex-direction: column;
+  }
+
+  .menu-header.active {
+    left: 0;
+    transition: all .3s ease;
+  }
+}
+
 /*BURGER------------------------------------------------------------*/
 #burger-menu {
   display: none;
@@ -109,24 +161,19 @@
   #burger-menu {
     display: block;
     background: transparent;
-    flex: 0 0 30px;
-    height: 20px;
+    flex: 0 0 24px;
+    height: 16px;
     position: relative;
     z-index: 15;
     right: 0;
     top: 0;
-    align-self: center;
-  }
-
-  #burger-menu.open {
-    align-self: flex-start;
-    margin: 22px 0 0 0;
+    /* margin: 0 0 0 12px; */
   }
 
   #burger-menu span {
     width: 100%;
     height: 2px;
-    background: #0786A5;
+    background: #22252E;
     position: absolute;
     left: 0px;
     transition: all .5s ease;
@@ -137,7 +184,7 @@
   }
 
   #burger-menu span:nth-child(2) {
-    top: 9px;
+    top: 7px;
   }
 
   #burger-menu span:last-child {
@@ -145,7 +192,7 @@
   }
 
   #burger-menu.open span:first-child {
-    top: 9px;
+    top: 7px;
     transform: rotate(225deg);
   }
 
@@ -154,7 +201,7 @@
   }
 
   #burger-menu.open span:last-child {
-    top: 9px;
+    top: 7px;
     transform: rotate(-225deg);
   }
 }

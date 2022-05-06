@@ -13,6 +13,12 @@
   justify-content: space-between;
 }
 
+@media (max-width: 768px) {
+  .footer__body {
+    flex-direction: column;
+  }
+}
+
 .footer__columns {
   flex: 0 0 33.333%;
   display: flex;
@@ -53,6 +59,12 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .footer__info {
+    flex-direction: column;
+  }
 }
 
 .footer__about {

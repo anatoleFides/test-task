@@ -10,8 +10,13 @@
   background: #F7F7F7;
 }
 
+@media (max-width: 768px) {
+  .tags {
+    display: none;
+  }
+}
+
 .tags__row {
-  /* flex: 1 1 auto; */
   display: flex;
 }
 
