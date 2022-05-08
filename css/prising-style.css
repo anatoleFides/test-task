@@ -17,6 +17,16 @@
 }
 
 @media (max-width: 768px) {
+  .prising__container {
+    margin: 0 30px;
+  }
+
+  .prising__title {
+    padding: 60px 0 40px;
+    font-size: 32px;
+    line-height: 44px;
+  }
+
   .prising__body {
     flex-direction: column;
     align-items: stretch;
@@ -141,23 +151,44 @@
   margin: 0 0 59px 0;
 }
 
+@media (max-width: 768px) {
+  .prising__item {
+    margin: 0;
+  }
+
+  .prising__item_center {
+    margin: 20px 0;
+    border-radius: 4px;
+    border: 4px solid #FF8D00;
+  }
+
+  .prising__btn_center {
+    background: linear-gradient(to top, #FF8D00, #FFA400);
+  }
+}
+
 .ways-pay {
   display: flex;
-  justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-  padding: 31px 0 10px;
+  justify-content: center;
+  padding: 31px 0 0 12px;
 }
 
 .ways-pay p {
   font-size: 18px;
   line-height: 28px;
   color: #ffffff;
-  margin: 0 30px 0 0;
+  margin: 0 15px 30px 15px;
+}
+
+.ways-pay__items {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .ways-pay__item {
-  margin: 0 30px 0 0;
+  margin: 0 15px 30px 15px;
 }
 
 .ways-pay__item img {
@@ -169,12 +200,6 @@
   display: flex;
   justify-content: center;
   padding: 0 0 57px 0;
-}
-
-@media (max-width: 768px) {
-  .prising__links {
-    flex-direction: column;
-  }
 }
 
 .prising__link {
@@ -196,4 +221,24 @@
   right: 0;
   font-family: 'icomoon';
   transform: rotate(90deg);
+}
+
+@media (max-width: 768px) {
+  .ways-pay {
+    flex-direction: column;
+  }
+
+  .ways-pay__items {
+    justify-content: center;
+  }
+
+  .prising__links {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 44px 0;
+  }
+
+  .prising__link:first-child {
+    margin: 0 44px 40px 0;
+  }
 }

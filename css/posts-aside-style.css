@@ -5,14 +5,8 @@
   flex-direction: column;
 }
 
-@media (max-width:768px) {
-  .posts__aside {
-    padding: 0;
-  }
-}
-
 .info-aside__item {
-  padding: 43px 0 16px 0;
+  padding: 43px 0 16px;
   border-bottom: 1px solid #EBECED;
 }
 
@@ -67,10 +61,29 @@
 .info-aside__banner {
   position: relative;
   padding: 75.3% 0;
-  margin: 32px 0 51px 0;
+  margin: 30px 0 51px;
 }
 
 .info-aside__screen {
   position: relative;
   padding: 51.4% 0;
+}
+
+@media (max-width:768px) {
+  .posts__aside {
+    padding: 0;
+  }
+
+  .info-aside__item {
+    padding: 71px 0 16px;
+  }
+
+  .info-aside__banner {
+    padding: 66.6% 0;
+    margin: 30px 0 60px;
+  }
+
+  .info-aside__screen {
+    padding: 49% 0;
+  }
 }

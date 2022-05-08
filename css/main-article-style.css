@@ -31,7 +31,7 @@
 @media (max-width:768px) {
   .article-main {
     flex-direction: column;
-    /* margin: 0 -10px; */
+    margin: 0 -10px 40px;
   }
 
   .article-main__image {
