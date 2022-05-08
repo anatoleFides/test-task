@@ -34,7 +34,7 @@
 }
 
 .prising__item {
-  flex: 0 0 33.333%;
+  flex: 0 1 33.333%;
   margin: 11px 10px 0;
   display: flex;
   flex-direction: column;
@@ -171,14 +171,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 31px 0 0 12px;
+  padding: 31px 0 12px;
 }
 
 .ways-pay p {
   font-size: 18px;
   line-height: 28px;
   color: #ffffff;
-  margin: 0 15px 30px 15px;
+  margin: 0 10px 30px 10px;
 }
 
 .ways-pay__items {
@@ -188,7 +188,7 @@
 }
 
 .ways-pay__item {
-  margin: 0 15px 30px 15px;
+  margin: 0 10px 30px 10px;
 }
 
 .ways-pay__item img {

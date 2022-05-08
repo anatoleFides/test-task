@@ -59,6 +59,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .menu-header__item {
@@ -74,7 +75,6 @@
     flex: 0 0 60%;
     flex-direction: column;
     align-items: flex-start;
-    /* order: 2; */
   }
 
   .menu-header__item {
@@ -128,7 +128,7 @@
 
 .header__authorization {
   position: relative;
-  /* transform: translateX(140px); */
+  transform: translateX(140px);
   z-index: 10;
 }
 
@@ -146,7 +146,7 @@
 
 @media (max-width: 768px) {
   .header__authorization {
-    /* transform: translateX(0); */
+    transform: translateX(0);
   }
 
   .header__started {
