@@ -91,7 +91,7 @@
 
 @media (max-width:768px) {
   .warning__body {
-    padding: 12px 38px 3px 20px;
+    padding: 14px 20px 3px 20px;
     justify-content: space-between;
     flex-wrap: nowrap;
   }
@@ -104,6 +104,7 @@
     align-items: flex-end;
   }
 
+
   .warning__row_right .warning__item:first-child {
     order: 2
   }
@@ -111,6 +112,14 @@
   .warning__row_right .warning__item:last-child {
     padding: 0 9px 0 0;
     order: 1;
+  }
+
+  .warning__attention {
+    padding: 0 0 0 28px;
+  }
+
+  .warning__attention::before {
+    left: 0;
   }
 
   .warning__item {
