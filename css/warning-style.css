@@ -18,19 +18,24 @@
 
 .warning__row {
   display: flex;
-  justify-content: center;
+}
+
+.warning__row_left {
+  margin: 0 32px 0 0;
+  justify-content: flex-end;
 }
 
 .warning__item {
   font-size: 12px;
   line-height: 16px;
+  font-weight: 400;
   color: #889099;
-  margin: 0 32px 0 0;
   position: relative;
 }
 
 .warning__attention {
-  padding: 0 0 0 27px;
+  padding: 0 0 0 20px;
+  margin: 0 32px 0 0;
   font-weight: 700;
   color: #FF8D00;
 }
@@ -41,9 +46,13 @@
   width: 22px;
   height: 19px;
   background: url(../img/icons/alert.png);
-  left: 0;
+  left: -13px;
   top: 50%;
   transform: translateY(-50%);
+}
+
+.warning__item_more {
+  margin: 0 0 0 32px;
 }
 
 .warning__link {

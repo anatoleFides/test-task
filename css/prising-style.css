@@ -3,10 +3,11 @@
 }
 
 .prising__title {
-  padding: 100px 0 60px;
+  padding: 100px 0 37px;
   text-align: center;
   font-size: 48px;
   line-height: 64px;
+  font-weight: 300;
   color: #ffffff;
 }
 
@@ -35,7 +36,7 @@
 
 .prising__item {
   flex: 0 1 33.333%;
-  margin: 11px 10px 0;
+  margin: 23px 10px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -52,7 +53,7 @@
 
 .prising__playment {
   text-transform: uppercase;
-  padding: 48px 0 30px;
+  padding: 48px 0 28px;
   color: #323642;
   font-weight: 500;
   line-height: 18px;
@@ -98,8 +99,8 @@
 }
 
 .icon-dolar::before {
-  top: 14px;
-  left: 0;
+  top: 17px;
+  left: -12px;
   position: absolute;
 }
 
@@ -107,7 +108,8 @@
   font-size: 56px;
   line-height: 66px;
   letter-spacing: -1.5px;
-  padding: 0 0 0 24px;
+  font-weight: 300;
+  padding: 0 0 0 15px;
 }
 
 .prising__price_text {
@@ -148,7 +150,7 @@
   background: linear-gradient(to top, #4CB649, #5DDF5A);
   border: none;
   color: #ffffff;
-  margin: 0 0 59px 0;
+  margin: 10px 0 57px 0;
 }
 
 @media (max-width: 768px) {
@@ -171,14 +173,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 31px 0 12px;
+  padding: 54px 0 3px;
 }
 
 .ways-pay p {
   font-size: 18px;
   line-height: 28px;
   color: #ffffff;
-  margin: 0 10px 30px 10px;
+  margin: 0 17px 30px 11px;
 }
 
 .ways-pay__items {
@@ -188,7 +190,7 @@
 }
 
 .ways-pay__item {
-  margin: 0 10px 30px 10px;
+  margin: 0 15px 30px 15px;
 }
 
 .ways-pay__item img {

@@ -4,16 +4,10 @@
   align-items: center;
   text-transform: uppercase;
   line-height: 18px;
-  padding: 21px 32px;
+  padding: 22px 33px 20px;
   margin: 0 0 40px 0;
   border-radius: 4px;
   background: #F7F7F7;
-}
-
-@media (max-width: 768px) {
-  .tags {
-    display: none;
-  }
 }
 
 .tags__row {
@@ -23,7 +17,7 @@
 .tags__row span {
   color: #323642;
   letter-spacing: 1px;
-  margin: 0 43px 0 0;
+  margin: 0 45px 0 0;
 }
 
 .tags__list {
@@ -31,15 +25,24 @@
 }
 
 .tags__list li {
-  margin: 0 25px 0 0;
+  margin: 0 35px 0 0;
   letter-spacing: .8px;
+  font-weight: 500;
   color: #4CB649;
 }
 
 .tags__links a {
   color: #323642;
+  line-height: 18px;
+  letter-spacing: 1px;
 }
 
 .tags__links a:first-child {
-  margin: 0 25px 0 0;
+  margin: 0 33px 0 0;
+}
+
+@media (max-width: 768px) {
+  .tags {
+    display: none;
+  }
 }

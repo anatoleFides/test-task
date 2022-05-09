@@ -1,11 +1,13 @@
 .footer__logo {
-  padding: 84px 0 58px;
+  padding: 83px 0 59px;
 }
 
 .footer__logo a {
   font-size: 27px;
   line-height: 33px;
+  font-weight: 400;
   color: #000;
+  font-family: 'Inter', sans-serif;
 }
 
 .footer__body {
@@ -49,7 +51,7 @@
 }
 
 .item-footer_small {
-  margin: 0 0 74px 0;
+  margin: 0 0 68px 0;
 }
 
 .item-footer__title {
@@ -62,7 +64,7 @@
 }
 
 .item-footer__list li {
-  margin: 0 0 12px 0;
+  margin: 0 0 10px 0;
 }
 
 .item-footer__link {
@@ -87,7 +89,8 @@
   color: #889099;
   line-height: 22px;
   letter-spacing: .5px;
-  margin: 0 0 24px 0;
+  font-weight: 400;
+  margin: 0 0 19px 0;
 }
 
 .about__parag {
@@ -97,33 +100,46 @@
 }
 
 .about__parag:first-child {
-  margin: 0 0 20px 0;
+  margin: 0 0 16px 0;
 }
 
 .about__parag:last-child {
-  margin: 20px 0 0 0;
+  margin: 16px 0 0 0;
 }
 
 .footer__social {
   flex: 0 0 75%;
-  padding: 40px 0 0 25%;
+  padding: 41px 0 0 25%;
 }
 
 .footer__social .item-footer__title {
-  padding: 0 0 26px 0;
+  padding: 0 0 20px 0;
 }
 
 .social__list {
   display: flex;
+  align-items: center;
 }
 
 .social__list li {
-  margin: 0 32px 0 0;
+  margin: 0 27px 0 0;
 }
 
 .social__item {
-  font-size: 22px;
+  font-size: 27px;
   color: #323642;
+}
+
+.icon-SL {
+  font-size: 32px;
+}
+
+.icon-google {
+  font-size: 36px;
+}
+
+.icon-youtube {
+  font-size: 40px;
 }
 
 @media (max-width: 768px) {
