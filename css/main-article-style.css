@@ -28,25 +28,6 @@
   margin: 0 0 85px 0;
 }
 
-@media (max-width:768px) {
-  .article-main {
-    flex-direction: column;
-    margin: 29px -10px 39px;
-  }
-
-  .article-main__image {
-    padding: 0 0 67% 0;
-  }
-
-  .article-main__content {
-    padding: 29px 30px 13px 30px;
-  }
-
-  .article-main__text {
-    margin: 0 0 15px 0;
-  }
-}
-
 .article-main__info {
   display: flex;
   line-height: 22px;
@@ -86,4 +67,23 @@
   width: 14px;
   height: 12px;
   background: url(../img/icons/comment.png);
+}
+
+@media (max-width:768px) {
+  .article-main {
+    flex-direction: column;
+    margin: 29px -10px 39px;
+  }
+
+  .article-main__image {
+    padding: 0 0 67% 0;
+  }
+
+  .article-main__content {
+    padding: 29px 30px 13px 30px;
+  }
+
+  .article-main__text {
+    margin: 0 0 15px 0;
+  }
 }

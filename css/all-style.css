@@ -1,9 +1,3 @@
-@media (max-width: 768px) {
-  body.hidden {
-    /* overflow: hidden; */
-  }
-}
-
 .wrapper {
   font-family: 'Roboto', sans-serif;
 }
@@ -12,19 +6,6 @@
   max-width: 1200px;
   margin: 0 auto;
 }
-
-@media (max-width: 1200px) {
-  .container {
-    margin: 0 15px;
-  }
-}
-
-@media (max-width: 768px) {
-  .main__container {
-    margin: 0 30px;
-  }
-}
-
 
 .img-responsive {
   position: absolute;
@@ -44,4 +25,20 @@
   background: #ffffff;
   border: 1px solid #4CB649;
   color: #4CB649;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    margin: 0 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  body.hidden {
+    overflow: hidden;
+  }
+
+  .main__container {
+    margin: 0 30px;
+  }
 }

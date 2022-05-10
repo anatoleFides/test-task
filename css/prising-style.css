@@ -23,7 +23,7 @@
   }
 
   .prising__title {
-    padding: 60px 0 40px;
+    padding: 60px 10px 40px;
     font-size: 32px;
     line-height: 44px;
   }
@@ -154,18 +154,40 @@
 }
 
 @media (max-width: 768px) {
+  .prising__playment {
+    padding: 48px 0 29px;
+  }
+
+  .prising__playment_center {
+    padding: 39px 0 30px;
+  }
+
+  .prising__playment::before {
+    bottom: 16px;
+  }
+
+  .prising__price_value {
+    padding: 0 0 0 10px;
+  }
+
+  .icon-dolar::before {
+    top: 16px;
+    left: -18px;
+  }
+
   .prising__item {
     margin: 0;
   }
 
   .prising__item_center {
-    margin: 20px 0;
+    margin: 16px 0 18px;
     border-radius: 4px;
     border: 4px solid #FF8D00;
   }
 
   .prising__btn_center {
     background: linear-gradient(to top, #FF8D00, #FFA400);
+    margin: 10px 0 38px 0;
   }
 }
 
@@ -209,6 +231,7 @@
   color: #4CB649;
   line-height: 18px;
   letter-spacing: .8px;
+  font-weight: 500;
   font-family: 'Roboto', sans-serif;
   position: relative;
   padding: 0 32px 0 0;
@@ -228,6 +251,11 @@
 @media (max-width: 768px) {
   .ways-pay {
     flex-direction: column;
+    padding: 35px 0 3px;
+  }
+
+  .ways-pay p {
+    margin: 0 0 19px 0;
   }
 
   .ways-pay__items {
@@ -237,7 +265,7 @@
   .prising__links {
     flex-direction: column;
     align-items: center;
-    padding: 0 0 44px 0;
+    padding: 11px 0 44px;
   }
 
   .prising__link:first-child {

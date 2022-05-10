@@ -14,7 +14,6 @@
   padding: 43px 0 15px;
 }
 
-
 .info-aside__subtitle {
   font-size: 24px;
   line-height: 34px;
@@ -82,7 +81,15 @@
   }
 
   .info-aside__item {
-    padding: 71px 0 16px;
+    padding: 71px 0 13px;
+  }
+
+  .info-aside__item .info-aside__subtitle {
+    padding: 0 0 0 74px;
+  }
+
+  .info-aside__item .info-aside__subtitle::before {
+    left: -6px;
   }
 
   .info-aside__banner {
@@ -91,6 +98,6 @@
   }
 
   .info-aside__screen {
-    padding: 49% 0;
+    padding: 49.3% 0;
   }
 }
